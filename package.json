@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "saber",
     "build": "saber build",
-    "now-build": "saber build",
+    "now-build": "saber",
     "now-dev": "saber"
   },
   "keywords": [],
