@@ -11,7 +11,8 @@ themeConfig:
   subTitle: A theme for saber.js
   copyRight: © Copyright
   sideBar:
-    - permalink: /about
+    - title: About
+      link: /about.html
     - title: Example
       link: /example.html
     - title: Example2
