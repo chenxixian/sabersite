@@ -1,14 +1,35 @@
-theme: ./paper
-
 siteConfig:
+  domain: chenxixian.cn
   title: Paper
   description: A theme for saber.js
-  url: https://saber.chenxixian.cn
   author: chenxixian
-
+  keywords: Blog,Web,JavaScript,Code,Computer Science,Geek
+  url: https://saber.chenxixian.cn
+  license:
+    text: CC BY-NC-ND 4.0
+    link: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  # pagination:
+  #   prevPage: 上一页
+  #   nextPage: 下一页
+  #   prevPost: 上一篇
+  #   nextPost: 下一篇
 permalinks:
   post: /:year/:month/:day/:slug
-
+plugins:
+  - resolve: saber-plugin-query-posts
+    options:
+      perPage: 7
+  - resolve: saber-plugin-generate-feed
+    options:
+      atomFeed: true
+  # - resolve: saber-plugin-google-analytics
+  #   options:
+  #     trackId: UA-46481966-2
+  # - resolve: saber-plugin-baidu-analytics
+  #   options:
+  #     trackId: f3122f4261e8b3074f848be04f62f0c0
+theme: ./paper
+# theme: ./packages/saber-theme-paper/src
 themeConfig:
   nav:
     - title: About
@@ -19,20 +40,24 @@ themeConfig:
       link: /example2.html
     - title: Tags
       link: /tags.html
-
-  # The Home section on sidebar (mobile)
-  spHome:
-    title: Home
-    link: /
-
+  social:
+    # dribbble: username
+    facebook: chenxixian
+    # flickr: username
+    github: chenxixian
+    # instagram: geekplux
+    linkedin: chenxixian
+    # pinterest: username
+    twitter: chenxixian
+    # youtube: username
+    # telegram: username
+    # microdotblog: geekplux
+    # googleplus: username
+    rss: true
+  disqus: chenxixian
 markdown:
   highlighter: prism
-
-plugins:
-
-  - resolve: saber-plugin-feed
-  - resolve: saber-plugin-query-posts
-  - resolve: saber-plugin-generate-feed
-    options:
-      atomFeed: true
-
+# build:
+#   loaderOptions:
+#     sass:
+#       data: '@import "../styles/variables.scss";'
