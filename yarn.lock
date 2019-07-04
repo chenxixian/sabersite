@@ -3575,6 +3575,11 @@ mixin-object@^2.0.1:
   dependencies:
     minimist "0.0.8"
 
+modern-normalize@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/modern-normalize/-/modern-normalize-0.5.0.tgz#7f75bb7319c6ae708d716658dc8d9c9760274887"
+  integrity sha512-U1geaHG9Grp3a60djDV2JvSVKiDFhuZrhUHoQHusfjtGqbgGunI3HHw7hHtQ2ls2y0et3+Lpcf2hOSS1W8JUdg==
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://mirrors.huaweicloud.com/repository/npm/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -4889,6 +4894,25 @@ saber-plugin-query-posts@^0.3.2:
     slugo "^0.2.3"
     url-join "^4.0.0"
 
+saber-plugin-seo@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/saber-plugin-seo/-/saber-plugin-seo-0.1.2.tgz#99ad4ccc4c3ea8b190b4a409ad705ad0c6772cae"
+  integrity sha512-4x3zNlcViQ/fbN7mGPXhYSkCrR+ja7z1fW1FgZvCJb8IZ6xv9z9bvubGPrLs9rLRC7OyJfBzC62PQVmmJ2I3Kg==
+
+saber-theme-paper@latest:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/saber-theme-paper/-/saber-theme-paper-0.1.8.tgz#c24cab96a719b591d2234f584a330e42716c3061"
+  integrity sha512-Vw1Ic2aAx7aIb67ef0JYrPxn8YBV7UyKk/ra9HhRI5gwdWwglDlIagBHCSYANJT4/H05CJpPUpC8PijcCLVE3g==
+  dependencies:
+    modern-normalize "^0.5.0"
+    saber-plugin-seo "^0.1.2"
+    tinydate "^1.0.1"
+
+saber-theme-ume@latest:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/saber-theme-ume/-/saber-theme-ume-2.0.0.tgz#59bdaee0d12cc3e009638a67f11a362c2c4de39a"
+  integrity sha512-FkQcYOqKO8SpYUCW/2aWcU0vC2ojp2xqf+t9dhS+6goXWUQZ6g5nAeKY/Rz0Gp/yFfZUzp96Y9Qu3jzCAltU7g==
+
 saber-utils@^0.1.5:
   version "0.1.5"
   resolved "https://mirrors.huaweicloud.com/repository/npm/saber-utils/-/saber-utils-0.1.5.tgz#592da40e5d72015933e953a60aedd27db1501748"
@@ -5546,6 +5570,11 @@ tiny-emitter@^2.0.0:
   version "2.1.0"
   resolved "https://mirrors.huaweicloud.com/repository/npm/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
   integrity sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==
+
+tinydate@^1.0.1:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/tinydate/-/tinydate-1.1.0.tgz#730ef3073e6e1ccdcff074368464f494290a4fd9"
+  integrity sha512-YF6YTOyBRHX4b3EtEI0W/mROcv82Gt6VccmVuSAkRV3FNORug2457wSGvT2cThbfuctQvVSmC5GobGheScxtIw==
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
