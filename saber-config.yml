@@ -1,4 +1,4 @@
-theme: ./src
+theme: ./ume
 
 siteConfig:
   title: Ume
