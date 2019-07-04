@@ -15,6 +15,7 @@ themeConfig:
       link: /about.html
     - title: Example
       link: /example.html
+    - permalink: /example2  
     - title: Tags
       link: /tags.html
 
@@ -30,3 +31,7 @@ plugins:
 
   - resolve: saber-plugin-feed
   - resolve: saber-plugin-query-posts
+
+permalinks:
+  post: /:year/:month/:day/:slug.html
+  page: /:slug.html
