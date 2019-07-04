@@ -1,16 +1,16 @@
-theme: ./ume
+theme: ./paper
 
 siteConfig:
-  title: Ume
+  title: Paper
   description: A theme for saber.js
-  url: https://github.com/iCyris/Ume
-  author: Cyris
+  url: https://saber.chenxixian.cn
+  author: chenxixian
+
+permalinks:
+  post: /:year/:month/:day/:slug
 
 themeConfig:
-  title: Ume
-  subTitle: A theme for saber.js
-  copyRight: © Copyright
-  sideBar:
+  nav:
     - title: About
       link: /about.html
     - title: Example
@@ -32,4 +32,7 @@ plugins:
 
   - resolve: saber-plugin-feed
   - resolve: saber-plugin-query-posts
+  - resolve: saber-plugin-generate-feed
+    options:
+      atomFeed: true
 
