@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "nprogress": "latest",
     "prismjs": "^1.16.0",
     "saber": "^0.6.10",
     "saber-highlight-css": "^0.0.5",
