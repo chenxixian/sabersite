@@ -20,7 +20,7 @@ themeConfig:
     - title: Tags
       link: /tags.html
 
-  # The Home section on sidebar (mobile)
+  #   The Home section on sidebar (mobile)
   spHome:
     title: Home
     link: /
@@ -31,4 +31,4 @@ markdown:
 plugins:
 
   - resolve: saber-plugin-feed
-- resolve: saber-plugin-query-posts
+  - resolve: saber-plugin-query-posts
