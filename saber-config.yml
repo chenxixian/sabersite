@@ -29,6 +29,5 @@ markdown:
   highlighter: prism
 
 plugins:
-
   - resolve: saber-plugin-feed
   - resolve: saber-plugin-query-posts
