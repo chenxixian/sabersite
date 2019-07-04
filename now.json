@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "name": "My-Saber-Site",
+  "builds": [{ "src": "package.json", "use": "@now/static-build" }]
+}
