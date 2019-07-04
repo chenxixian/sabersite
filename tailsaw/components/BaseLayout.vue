@@ -17,7 +17,7 @@
 import SiteHeader from './SiteHeader'
 import SiteFooter from './SiteFooter'
 import transition from './PageTransition'
-import 'typeface-nunito-sans/index.css'
+// import 'typeface-nunito-sans/index.css'
 import 'prismjs/themes/prism.css'
 
 export default {
