@@ -1,0 +1,25 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.saber-highlight {
+  background: #282c34;
+}
+
+.saber-highlight:before {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+:not(pre) code {
+  background: #eee;
+  padding: 2px 3px;
+  border-radius: 3px;
+}
+
+p {
+  margin: 20px 0;
+}
+
+a {
+  color: blue;
+}
