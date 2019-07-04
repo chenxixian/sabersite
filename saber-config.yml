@@ -33,13 +33,13 @@ theme: ./paper
 themeConfig:
   nav:
     - title: About
-      link: /about.html
+      link: /about
     - title: Example
-      link: /example.html
+      link: /example
     - title: Example2
-      link: /example2.html
+      link: /example2
     - title: Tags
-      link: /tags.html
+      link: /tags
   social:
     # dribbble: username
     facebook: chenxixian
