@@ -32,6 +32,3 @@ plugins:
   - resolve: saber-plugin-feed
   - resolve: saber-plugin-query-posts
 
-permalinks:
-  post: /:year/:month/:day/:slug.html
-  page: /:slug.html
